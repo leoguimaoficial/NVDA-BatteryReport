@@ -1,0 +1,340 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Battery Report 1.0\n"
+"POT-Creation-Date: 2025-09-14 00:00+0000\n"
+"PO-Revision-Date: 2025-09-14 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: ChatGPT\n"
+
+#: ui titles, menus
+msgid "NVDA Battery Report"
+msgstr "NVDA Battery Report"
+
+#: empty state
+msgid "No battery reports found."
+msgstr "Aucun rapport de batterie trouvé."
+
+#: powercfg / I/O
+msgid "powercfg.exe not found."
+msgstr "powercfg.exe introuvable."
+
+msgid "Failed to run powercfg."
+msgstr "Échec de l’exécution de powercfg."
+
+msgid "Battery report file was not created."
+msgstr "Le fichier du rapport de batterie n’a pas été créé."
+
+#: sections
+msgid "Overview"
+msgstr "Aperçu"
+
+msgid "Installed battery"
+msgstr "Batterie installée"
+
+msgid "Recent usage (last 7 days)"
+msgstr "Utilisation récente (7 derniers jours)"
+
+msgid "Battery usage (last 7 days)"
+msgstr "Utilisation de la batterie (7 derniers jours)"
+
+msgid "Capacity history"
+msgstr "Historique de capacité"
+
+msgid "Usage history"
+msgstr "Historique d’utilisation"
+
+msgid "Battery life estimates"
+msgstr "Estimations d’autonomie"
+
+#: details dialog
+msgid "Battery report details"
+msgstr "Détails du rapport de batterie"
+
+msgid "&Section:"
+msgstr "&Section :"
+
+msgid "&Rows:"
+msgstr "&Lignes :"
+
+msgid "&Order:"
+msgstr "&Ordre :"
+
+msgid "Newest first"
+msgstr "Plus récents d’abord"
+
+msgid "Oldest first"
+msgstr "Plus anciens d’abord"
+
+msgid "&Items:"
+msgstr "&Éléments :"
+
+msgid "Items list"
+msgstr "Liste des éléments"
+
+msgid "&Description:"
+msgstr "&Description :"
+
+msgid "Select an item to read its details."
+msgstr "Sélectionnez un élément pour en lire les détails."
+
+msgid "&Copy selected"
+msgstr "&Copier la sélection"
+
+msgid "&Open raw HTML"
+msgstr "&Ouvrir le HTML original"
+
+msgid "&Close"
+msgstr "&Fermer"
+
+#: header / overview labels
+msgid "Computer name"
+msgstr "Nom de l’ordinateur"
+
+msgid "System product name"
+msgstr "Nom du produit système"
+
+msgid "BIOS"
+msgstr "BIOS"
+
+msgid "OS build"
+msgstr "Build du système"
+
+msgid "Platform role"
+msgstr "Rôle de la plateforme"
+
+msgid "Connected standby"
+msgstr "Veille connectée"
+
+msgid "Report time"
+msgstr "Heure du rapport"
+
+msgid "Battery health"
+msgstr "Santé de la batterie"
+
+msgid "Design capacity (mWh)"
+msgstr "Capacité de conception (mWh)"
+
+msgid "Full charge capacity (mWh)"
+msgstr "Capacité de charge maximale (mWh)"
+
+#: installed battery labels
+msgid "Battery name"
+msgstr "Nom de la batterie"
+
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+msgid "Serial number"
+msgstr "Numéro de série"
+
+msgid "Chemistry"
+msgstr "Chimie"
+
+msgid "Design capacity"
+msgstr "Capacité de conception (usine)"
+
+msgid "Full charge capacity"
+msgstr "Capacité de charge maximale (après usure)"
+
+msgid "Cycle count"
+msgstr "Nombre de cycles"
+
+#: table-column labels used in list formatting
+msgid "Start time"
+msgstr "Heure de début"
+
+msgid "State"
+msgstr "État"
+
+msgid "Source"
+msgstr "Source"
+
+msgid "Remaining"
+msgstr "Charge restante (actuelle)"
+
+msgid "Duration"
+msgstr "Durée"
+
+msgid "Energy drained"
+msgstr "Énergie consommée"
+
+msgid "Period"
+msgstr "Période"
+
+msgid "Active"
+msgstr "Actif"
+
+msgid "At full charge"
+msgstr "À pleine charge"
+
+msgid "At design capacity"
+msgstr "À la capacité de conception"
+
+msgid "Average"
+msgstr "Moyenne"
+
+#: legends and helper texts
+msgid "Columns: Start time | State | Source | Remaining"
+msgstr "Colonnes : Heure de début | État | Source | Charge restante (actuelle)"
+
+msgid "Columns: Start time | State | Duration | Energy drained"
+msgstr "Colonnes : Heure de début | État | Durée | Énergie consommée"
+
+msgid "Columns: Period | Full charge capacity | Design capacity"
+msgstr "Colonnes : Période | Capacité de charge maximale | Capacité de conception"
+
+msgid "Columns: Period | Active | Connected standby"
+msgstr "Colonnes : Période | Actif | Veille connectée"
+
+msgid "Battery life estimates\nBattery life estimates based on observed drains\nColumns: Period | At full charge — Active, Connected standby | At design capacity — Active, Connected standby"
+msgstr "Estimations d’autonomie\nEstimations basées sur les consommations observées\nColonnes : Période | À pleine charge — Actif, Veille connectée | À la capacité de conception — Actif, Veille connectée"
+
+#: empty/none messages for tables
+msgid "No entries for the last 7 days."
+msgstr "Aucune entrée pour les 7 derniers jours."
+
+msgid "No data."
+msgstr "Aucune donnée."
+
+msgid "No data for this section."
+msgstr "Aucune donnée pour cette section."
+
+msgid "No description available."
+msgstr "Aucune description disponible."
+
+#: clipboard feedback
+msgid "Please select an item to copy."
+msgstr "Veuillez sélectionner un élément à copier."
+
+msgid "Copied to clipboard."
+msgstr "Copié dans le presse-papiers."
+
+msgid "Failed to open clipboard."
+msgstr "Échec d’accès au presse-papiers."
+
+#: main dialog / actions
+msgid "Click Generate to create a Windows battery report using powercfg."
+msgstr "Cliquez sur Générer pour créer un rapport de batterie Windows avec powercfg."
+
+msgid "&Generate report"
+msgstr "&Générer le rapport"
+
+msgid "Battery reports history"
+msgstr "Historique des rapports de batterie"
+
+msgid "&View details"
+msgstr "&Afficher les détails"
+
+msgid "&Delete"
+msgstr "&Supprimer"
+
+msgid "&Clear history"
+msgstr "&Effacer l’historique"
+
+msgid "History:"
+msgstr "Historique :"
+
+msgid "Generating report... Please wait."
+msgstr "Génération du rapport… Veuillez patienter."
+
+msgid "Report generated. Battery health: {hp}% ({full:,}/{des:,} mWh)"
+msgstr "Rapport généré. Santé de la batterie : {hp}% ({full:,}/{des:,} mWh)"
+
+msgid "Report generated."
+msgstr "Rapport généré."
+
+msgid "Error: {m}"
+msgstr "Erreur : {m}"
+
+msgid "Are you sure you want to delete this report?"
+msgstr "Voulez-vous vraiment supprimer ce rapport ?"
+
+msgid "Confirm delete"
+msgstr "Confirmer la suppression"
+
+msgid "Clear all reports and delete files?"
+msgstr "Effacer tous les rapports et supprimer les fichiers ?"
+
+msgid "Clear history"
+msgstr "Effacer l’historique"
+
+msgid "Battery report"
+msgstr "Rapport de batterie"
+
+#: summary line
+msgid "{ts} — Health {hp}% ({full:,}/{des:,} mWh)"
+msgstr "{ts} — Santé {hp}% ({full:,}/{des:,} mWh)"
+
+msgid "{ts} — Battery report"
+msgstr "{ts} — Rapport de batterie"
+
+#: script description
+msgid "Opens the NVDA BatteryReport dialog."
+msgstr "Ouvre la boîte de dialogue NVDA Battery Report."
+
+msgid "Generate accessible Windows battery reports (health, capacity, usage, and life estimates) directly in NVDA. Friendly interface, integrated history, and multi-language support."
+msgstr "Générez des rapports de batterie Windows accessibles (santé, capacité, usage et estimations d’autonomie) directement dans NVDA. Interface conviviale, historique intégré et prise en charge multilingue."
+
+# glue (description : libellé, valeur et texte)
+msgid "{label}: {value}\n\n{desc}"
+msgstr "{label} : {value}\n\n{desc}"
+
+# ---- Descriptions de la section "Aperçu"
+msgid "Computer name is the Windows name of this device."
+msgstr "Nom de l’ordinateur tel que défini dans Windows pour cet appareil."
+
+msgid "Model reported by the system firmware (BIOS/UEFI)."
+msgstr "Modèle indiqué par le microprogramme du système (BIOS/UEFI)."
+
+msgid "Firmware version and date."
+msgstr "Version et date du microprogramme."
+
+msgid "Windows build installed on this system."
+msgstr "Build de Windows installé sur ce système."
+
+msgid "Device role, e.g., Mobile or Desktop."
+msgstr "Rôle de l’appareil, par ex. mobile ou bureau."
+
+msgid "Whether modern standby is supported."
+msgstr "Indique si la veille moderne est prise en charge."
+
+msgid "Timestamp when this report was generated."
+msgstr "Horodatage de la génération de ce rapport."
+
+msgid "Battery health = Full charge capacity / Design capacity."
+msgstr "Santé de la batterie = Capacité maximale actuelle / Capacité de conception."
+
+msgid "Factory-specified maximum energy in milliwatt-hours."
+msgstr "Énergie maximale spécifiée en usine en milliwattheures."
+
+msgid "Current maximum energy (mWh) after wear."
+msgstr "Énergie maximale actuelle (mWh) après usure."
+
+# ---- Descriptions de la section "Batterie installée"
+msgid "Identifier for the installed battery."
+msgstr "Identifiant de la batterie installée."
+
+msgid "Battery vendor reported by firmware."
+msgstr "Fabricant de la batterie rapporté par le microprogramme."
+
+msgid "Battery serial number."
+msgstr "Numéro de série de la batterie."
+
+msgid "Battery chemistry code as reported by the system."
+msgstr "Code de chimie de la batterie tel que rapporté par le système."
+
+msgid "Factory-specified maximum energy (mWh)."
+msgstr "Énergie maximale spécifiée en usine (mWh)."
+
+msgid "Number of full charge–discharge cycles recorded."
+msgstr "Nombre de cycles complets de charge et décharge enregistrés."
+
+# ---- Valeur de repli utilisée pour les moyennes quand il n’y a pas de données
+msgid "-"
+msgstr "-"
